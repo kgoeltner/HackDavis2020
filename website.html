@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<title>FireConnect</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<style>
+p.small {
+  font-variant: small-caps;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  font-size: 65;
+}
+.text{
+  color:#FFFFFF;
+  opacity: 1;
+
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 280px;
+  left: 500px; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+       
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+ 
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('https://i.ibb.co/xSj8SpS/Untitled-design-7.png');
+  z-index:999;
+  min-height: 100%;
+  opacity: 1;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+ 
+  min-height: 70%;
+  top: 0px; 
+  left: 520px;
+  opacity: 1; 
+  position: fixed;
+
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 1000px;
+  }
+}
+
+
+body {
+  font-size: 62.5%;
+  font-style: Arial;
+}
+
+.animation-box {
+  width: 75%;
+  height: 27.5rem;
+  background-color: blue;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.animation-container {
+  width: 1000rem;
+  height: 30rem;
+}
+
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+
+.fourth-text {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom:280px;
+  left: 600px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 1s;
+  animation-duration: 9s;
+}
+.city1 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 1s;
+  animation-duration: 5s;
+
+}
+.city2 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 6s;
+  animation-duration: 5s;
+
+}
+.city3 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 10s;
+  animation-duration: 5s;
+
+}
+.city4 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 15s;
+  animation-duration: 5s;
+
+}
+.city5 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 20s;
+  animation-duration: 5s;
+
+}
+.city6 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 25s;
+  animation-duration: 5s;
+
+}
+.city7 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 30s;
+  animation-duration: 5s;
+
+}
+.city8 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 35s;
+  animation-duration: 5s;
+
+}
+.city9{
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 40s;
+  animation-duration: 5s;
+
+}
+.city10 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 40px;
+  left: 520px;
+  opacity: 0;
+  color: #ffffff;
+  animation-name: fadeInOut;
+  animation-delay: 45s;
+  animation-duration: 9s;
+
+}
+.fire1 {
+  font-size: 3.4rem;
+  position: absolute;
+  bottom: 300px;
+  left: 550px;
+  opacity: 0;
+  color: #000000;
+}
+
+
+</style>
+
+<body>
+
+
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <!--<a href="#about" ><span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span></a>-->
+</div>
+</body>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+* {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #000000;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  position: fixed;
+  bottom: 200px;
+  left: 640px;
+  width: 250px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  color: #000000;
+  position: fixed;
+  bottom: 270px;
+  left: 640px;
+  
+  font-size:20px;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 250px;
+  padding: 10px;
+  background-color: none;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: none;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  
+background-color: #000000;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  position: fixed;
+  bottom: 200px;
+  left: 640px;
+  width: 250px;
+
+}
+
+<!--/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}-->
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<body bgcolor="#391F68">
+<div class="city1"><p class = "small"><img src="https://i.ibb.co/n04PJ2B/Mustard-Black-Minimalist-Etsy-Shop-Icon-11.png"></p></div>
+<div class="city2"><p class = "small"><img src="https://i.ibb.co/N32Q1WG/Mustard-Black-Minimalist-Etsy-Shop-Icon-9.png"></p></div>
+<div class="city3"><p class = "small"><img src="https://i.ibb.co/CVTzVFT/Mustard-Black-Minimalist-Etsy-Shop-Icon-8.png"></p></div>
+<div class="city4"><p class = "small"><img src="https://i.ibb.co/tmgbH07/Mustard-Black-Minimalist-Etsy-Shop-Icon-7.png"></p></div>
+<div class="city5"><p class = "small"><img src="https://i.ibb.co/MgCsxrp/Mustard-Black-Minimalist-Etsy-Shop-Icon-6.png"</p></div>
+<div class="city6"><p class = "small"><img src="https://i.ibb.co/n04PJ2B/Mustard-Black-Minimalist-Etsy-Shop-Icon-11.png"></p></div>
+<div class="city7"><p class = "small"><img src="https://i.ibb.co/N32Q1WG/Mustard-Black-Minimalist-Etsy-Shop-Icon-9.png"></p></div>
+<div class="city8"><p class = "small"><img src="https://i.ibb.co/CVTzVFT/Mustard-Black-Minimalist-Etsy-Shop-Icon-8.png"></p></div>
+<div class="city9"><p class = "small"><img src="https://i.ibb.co/tmgbH07/Mustard-Black-Minimalist-Etsy-Shop-Icon-7.png"></p></div>
+<div class="city10"><p class = "small"><img src="https://i.ibb.co/MgCsxrp/Mustard-Black-Minimalist-Etsy-Shop-Icon-6.png"</p></div>
+
+<div class="bgimg-2"><img src="https://i.ibb.co/0tmDW3y/Mustard-Black-Minimalist-Etsy-Shop-Icon-10.png"></div>
+
+<a href="index.html">MAP</a>
+
+
+<button class="open-button" onclick="openForm()" id="open-button">LOGIN</button>
+
+<div class="form-popup" id="myForm">
+  <form action="page2.html" class="form-container">
+    <!--<center><h1><p class = "small">Welcome</p></h1></center>-->
+
+    <!--<label for="email"><b>Email</b></label>-->
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <!--<label for="psw"><b>Password</b></label>-->
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    
+    <button type="submit" class="btn" onclick = "close()">Login</button>
+  </form>
+</div>
+<div id = "firePicture"> 
+</div>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+  document.getElementById("open-button").style.display= "none";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+
+</script>
+
+</body>
+ </span>
+  </div>
+</div>
+
+
+
+
+
+<script>
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+
+</html>

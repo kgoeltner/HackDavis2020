@@ -1,0 +1,39 @@
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+#map {
+  height: 95%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#keyword-search {
+  width: 400px;
+}
+
+#location-search {
+  width: 350px;
+}
+
+.navbar-nav > li {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bg-custom {
+  background-color: #fff0ed;
+  border-color: #E7E7E7;
+}
+
+.submit-color {
+  background-color: #faffe2;
+  border-color: #D3D3D3;
+  text-decoration-color: #581845;
+}
+
+.opt {
+  color: gray;
+}
